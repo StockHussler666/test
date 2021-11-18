@@ -5,7 +5,7 @@ import finAnMods as fam
 
 tcks1 = fam.enterTickers()
 print(tcks1)
-#tcks2 = ['WMT','AMZN','COST','WBA','KR','HD','JD','CRRFY','TSCDY','TGT']
+tcks2 = ['WMT','AMZN','COST','WBA','KR','HD','JD','CRRFY','TSCDY','TGT']
 
 dataf = fam.getFinData(tcks1,'2020')
 
